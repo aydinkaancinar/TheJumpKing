@@ -2,7 +2,8 @@
 
 Can you beat the high score? Jump, avoid enemies, and collect as much treasure as possible. Try out the customization section, to go to other adventures with a different character.
 
-App Store: https://apps.apple.com/us/app/the-jump-king/id1519538474
+App Store: https://apps.apple.com/us/app/the-jump-king/id1519538474  
+
 Google Play: https://play.google.com/store/apps/details?id=com.KaanCinar.TheJumpKing&hl=en_US
 
 ## Screenshot
