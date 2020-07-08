@@ -4,7 +4,6 @@ Can you beat the high score? Jump, avoid enemies, and collect as much treasure a
 
 Download:  
 [App Store](https://apps.apple.com/us/app/the-jump-king/id1519538474)  
-
 [Google Play](https://play.google.com/store/apps/details?id=com.KaanCinar.TheJumpKing&hl=en_US)
 
 ## Screenshot
