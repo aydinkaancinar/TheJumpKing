@@ -1,0 +1,16 @@
+{
+"companyName": "KaanCinar",
+"productName": "TheJumpKing",
+"productVersion": "0.2",
+"dataUrl": "TheJumpKingWeb.data.unityweb",
+"wasmCodeUrl": "TheJumpKingWeb.wasm.code.unityweb",
+"wasmFrameworkUrl": "TheJumpKingWeb.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#80001E",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.0f1"
+}
