@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>The Jump King</title>
+    <link rel="icon" type="image/png" href="AppIcon.png">
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "Build/TheJumpKingWeb.json");
+    </script>
+    <style>
+      body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: white;} 
+
+      .topnav {
+        height: 30px;
+        line-height: 30px;
+        border: 3px dashed white
+        overflow: hidden;
+        text-align: center;
+        background-color: black;
+      }
+      
+      .topnav a {
+        height: 30px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: #24fc03;
+        color: black;
+      }
+      
+      .center {
+        padding: 0px;
+        position: absolute;
+        margin: auto;
+        height: 90%;
+        width: 35%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+      }
+  
+      .flex-parent {
+        padding-top: 20px;
+        display: flex;
+      }
+  
+      .flex-child {
+        flex: 1;
+      }
+  
+      .image_edit {
+        margin: auto;
+        height: 200px;
+        width: 300px;
+        text-align: center;
+      }
+      
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+      
+      .mobile-container {
+        width: 100%;
+        padding-top: 20px;
+        height: auto;
+        text-align: center;
+        display: block;
+      }
+      
+      .mobileShow {display: none;}
+      /* Smartphone Portrait and Landscape */
+      @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px){ 
+          .mobileShow {display: inline;}
+      }
+      
+      .mobileHide { display: inline; }
+      /* Smartphone Portrait and Landscape */
+      @media only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px){
+          .mobileHide { display: none;}
+      }
+      
+    </style>
+  </head>
+  <body style="background-color:black;">
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy_policy.html">Privacy Policy</a>
+    </div>  
+    <div class= "mobileHide">
+      <div class='flex-parent'>
+        <div class='flex-child'>
+          <span class="img-container">
+           <img class = "image_edit" src="TheJumpKingLogo.png" alt="GameLogo">
+          </span>
+          <style> p { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding:0; color: white; text-align: center;} </style>
+          <p> Press <b> Left Key </b> to go left </p>
+          <p> Press <b> Right Key </b> to go right </p>
+        </div>
+        <div class='flex-child'>
+          <div class = "center" id="unityContainer"></div> 
+        </div>
+        <div class='flex-child'>
+          <span class="img-container">
+            <img class = "image_edit" src="TheJumpKingLogo.png" alt="GameLogo">
+          </span>
+          <style> p {text-align: center;} </style>
+          <p><a href="https://apps.apple.com/us/app/the-jump-king/id1519538474" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-14&kind=iossoftware&bubble=apple_music) no-repeat;width:135px;height:40px;"></a>
+          </p>
+          <p><a href='https://play.google.com/store/apps/details?id=com.KaanCinar.TheJumpKing&hl=en_US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mobileShow">
+      <span class="mobile-container">
+        <img class = "image_edit" src="TheJumpKingLogo.png" alt="GameLogo">
+      </span>
+      <style> p {text-align: center;} </style>
+      <p><a href="https://apps.apple.com/us/app/the-jump-king/id1519538474" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2020-07-14&kind=iossoftware&bubble=apple_music) no-repeat;width:135px;height:40px;"></a>
+          </p>
+          <p><a href='https://play.google.com/store/apps/details?id=com.KaanCinar.TheJumpKing&hl=en_US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+          </p>
+    </div>
+  </body>
+</html>
